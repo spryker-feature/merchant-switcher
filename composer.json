@@ -1,0 +1,21 @@
+{
+  "name": "spryker-feature/merchant-switcher",
+  "description": "Merchant Switcher [feature]",
+  "type": "metapackage",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.3",
+    "spryker-shop/merchant-switcher-widget": "^0.6.0",
+    "spryker/merchant-switcher": "^0.3.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "202009.x-dev"
+    }
+  },
+  "suggest": {
+    "spryker-feature/marketplace-merchant": "Recommended feature dependency."
+  }
+}
