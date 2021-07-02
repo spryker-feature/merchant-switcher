@@ -1,21 +1,22 @@
 {
-  "name": "spryker-feature/merchant-switcher",
-  "description": "Merchant Switcher [feature]",
-  "type": "metapackage",
-  "license": "proprietary",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "require": {
-    "php": ">=7.3",
-    "spryker-shop/merchant-switcher-widget": "^0.6.0",
-    "spryker/merchant-switcher": "^0.3.0"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "202009.x-dev"
+    "name": "spryker-feature/merchant-switcher",
+    "description": "Merchant Switcher [feature]",
+    "type": "metapackage",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.3",
+        "spryker-shop/merchant-switcher-widget": "^0.7.0",
+        "spryker/merchant-switcher": "^0.5.0",
+        "spryker/shop-context": "^0.1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "202107.x-dev"
+        }
+    },
+    "suggest": {
+        "spryker-feature/marketplace-product-offer": "Recommended feature dependency."
     }
-  },
-  "suggest": {
-    "spryker-feature/marketplace-product-offer": "Recommended feature dependency."
-  }
 }
