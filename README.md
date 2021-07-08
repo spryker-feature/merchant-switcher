@@ -1,6 +1,6 @@
 # Spryker Feature: Merchant Switcher
 
-
+Merchant Switcher allows selecting the active merchant for the Marketplace. Only the products and offers related to the selected Merchant are displayed all over the online store: in the Search and Catalog pages, product detail page, and Shopping Cart.
 
 ## Installation
 
