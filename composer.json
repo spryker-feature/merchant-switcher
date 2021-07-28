@@ -16,6 +16,6 @@
         }
     },
     "suggest": {
-        "spryker-feature/marketplace-product-offer": "Recommended feature dependency."
+        "spryker-feature/marketplace-merchant": "Recommended feature dependency."
     }
 }
